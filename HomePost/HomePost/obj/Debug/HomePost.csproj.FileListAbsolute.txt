@@ -1,0 +1,13 @@
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/HomePost.dll
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/HomePost.pdb
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/MvvmCross.Binding.dll
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/MvvmCross.Core.dll
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/MvvmCross.Localization.dll
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/MvvmCross.Platform.dll
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/MvvmCross.Platform.dll.mdb
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/MvvmCross.Binding.dll.mdb
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/MvvmCross.Localization.dll.mdb
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/obj/Debug/HomePost.csprojResolveAssemblyReference.cache
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/obj/Debug/HomePost.csproj.CoreCompileInputs.cache
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/obj/Debug/HomePost.dll
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/obj/Debug/HomePost.pdb

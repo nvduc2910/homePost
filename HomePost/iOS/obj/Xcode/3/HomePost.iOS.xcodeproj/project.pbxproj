@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72DA1F890000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FC38C50000000000000000 /* UIKit.framework */; };
+		E0D1FD570000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F416930000000000000000 /* MapKit.framework */; };
+		17CDEC3E0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF0057A0000000000000000 /* Foundation.framework */; };
+		4EC9DB250000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EBF4610000000000000000 /* CoreGraphics.framework */; };
+		CCC5150B0000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E72E470000000000000000 /* Assets.xcassets */; };
+		5E01AACD0000000000000000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E523C4090000000000000000 /* LaunchScreen.storyboard */; };
+		DDB807800000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94FD99B40000000000000000 /* Info.plist */; };
+		36933CE70000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDB556230000000000000000 /* Entitlements.plist */; };
+		326986F50000000000000000 /* SplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B98BA0310000000000000000 /* SplashView.xib */; };
+		AC90BC420000000000000000 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B2D57E0000000000000000 /* RegisterView.xib */; };
+		F1B30B0C0000000000000000 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D524480000000000000000 /* LoginView.xib */; };
+		F511348E0000000000000000 /* LoginView.h in Sources */ = {isa = PBXBuildFile; fileRef = 7C334DCA0000000000000000 /* LoginView.h */; };
+		54C4DFE40000000000000000 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE6F9200000000000000000 /* LoginView.m */; };
+		864DCA500000000000000000 /* RegisterView.h in Sources */ = {isa = PBXBuildFile; fileRef = D6FE38C00000000000000000 /* RegisterView.h */; };
+		645260E50000000000000000 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB747A210000000000000000 /* RegisterView.m */; };
+		67B08A670000000000000000 /* SplashView.h in Sources */ = {isa = PBXBuildFile; fileRef = EED2A3A30000000000000000 /* SplashView.h */; };
+		AE39FA4F0000000000000000 /* SplashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 355C138B0000000000000000 /* SplashView.m */; };
+		A6B21ADB0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 2DD434170000000000000000 /* AppDelegate.h */; };
+		E67F37BF0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA150FB0000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA0A67390000000000000000 /* HomePost.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "HomePost.iOS.app"; path = "HomePost.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FC38C50000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		67F416930000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		9EF0057A0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		D5EBF4610000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		53E72E470000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		E523C4090000000000000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen.storyboard"; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		94FD99B40000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		BDB556230000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		B98BA0310000000000000000 /* SplashView.xib */ = {isa = PBXFileReference; name = "SplashView.xib"; path = "Views/SplashView.xib"; sourceTree = "<group>"; };
+		33B2D57E0000000000000000 /* RegisterView.xib */ = {isa = PBXFileReference; name = "RegisterView.xib"; path = "Views/RegisterView.xib"; sourceTree = "<group>"; };
+		78D524480000000000000000 /* LoginView.xib */ = {isa = PBXFileReference; name = "LoginView.xib"; path = "Views/LoginView.xib"; sourceTree = "<group>"; };
+		7C334DCA0000000000000000 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginView.h"; path = "LoginView.h"; sourceTree = "<group>"; };
+		DBE6F9200000000000000000 /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginView.m"; path = "LoginView.m"; sourceTree = "<group>"; };
+		D6FE38C00000000000000000 /* RegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RegisterView.h"; path = "RegisterView.h"; sourceTree = "<group>"; };
+		EB747A210000000000000000 /* RegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RegisterView.m"; path = "RegisterView.m"; sourceTree = "<group>"; };
+		EED2A3A30000000000000000 /* SplashView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SplashView.h"; path = "SplashView.h"; sourceTree = "<group>"; };
+		355C138B0000000000000000 /* SplashView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SplashView.m"; path = "SplashView.m"; sourceTree = "<group>"; };
+		2DD434170000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		6DA150FB0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789AEE5B0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DA1F890000000000000000 /* UIKit.framework in Frameworks */,
+				E0D1FD570000000000000000 /* MapKit.framework in Frameworks */,
+				17CDEC3E0000000000000000 /* Foundation.framework in Frameworks */,
+				4EC9DB250000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1AAB9D0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				4A702D710000000000000000 /* HomePost.iOS */,
+				BFEFEAB30000000000000000 /* Frameworks */,
+				1C456C870000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C456C870000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0A67390000000000000000 /* HomePost.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		BFEFEAB30000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9FC38C50000000000000000 /* UIKit.framework */,
+				67F416930000000000000000 /* MapKit.framework */,
+				9EF0057A0000000000000000 /* Foundation.framework */,
+				D5EBF4610000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		4A702D710000000000000000 /* HomePost.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2DD434170000000000000000 /* AppDelegate.h */,
+				53E72E470000000000000000 /* Assets.xcassets */,
+				BDB556230000000000000000 /* Entitlements.plist */,
+				94FD99B40000000000000000 /* Info.plist */,
+				E523C4090000000000000000 /* LaunchScreen.storyboard */,
+				7C334DCA0000000000000000 /* LoginView.h */,
+				D6FE38C00000000000000000 /* RegisterView.h */,
+				EED2A3A30000000000000000 /* SplashView.h */,
+				F86F5E100000000000000000 /* Supporting Files */,
+				B62D76AF0000000000000000 /* Views */,
+			);
+			name = "HomePost.iOS";
+			sourceTree = "<group>";
+		};
+		B62D76AF0000000000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78D524480000000000000000 /* LoginView.xib */,
+				33B2D57E0000000000000000 /* RegisterView.xib */,
+				B98BA0310000000000000000 /* SplashView.xib */,
+			);
+			name = "Views";
+			sourceTree = "<group>";
+		};
+		F86F5E100000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DA150FB0000000000000000 /* AppDelegate.m */,
+				DBE6F9200000000000000000 /* LoginView.m */,
+				EB747A210000000000000000 /* RegisterView.m */,
+				355C138B0000000000000000 /* SplashView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF0AECB50000000000000000 /* HomePost.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A41B850000000000000000 /* Build configuration list for PBXNativeTarget "HomePost.iOS" */;
+			buildPhases = (
+				5C12896B0000000000000000 /* Sources */,
+				789AEE5B0000000000000000 /* Frameworks */,
+				6A56BBE30000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomePost.iOS";
+			productName = "HomePost.iOS";
+			productReference = CA0A67390000000000000000 /* HomePost.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6D27500000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 62CEDC6F0000000000000000 /* Build configuration list for PBXProject "HomePost.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE1AAB9D0000000000000000;
+			productRefGroup = 1C456C870000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0AECB50000000000000000 /* HomePost.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A56BBE30000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC5150B0000000000000000 /* Assets.xcassets in Resources */,
+				5E01AACD0000000000000000 /* LaunchScreen.storyboard in Resources */,
+				DDB807800000000000000000 /* Info.plist in Resources */,
+				36933CE70000000000000000 /* Entitlements.plist in Resources */,
+				326986F50000000000000000 /* SplashView.xib in Resources */,
+				AC90BC420000000000000000 /* RegisterView.xib in Resources */,
+				F1B30B0C0000000000000000 /* LoginView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C12896B0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F511348E0000000000000000 /* LoginView.h in Sources */,
+				54C4DFE40000000000000000 /* LoginView.m in Sources */,
+				864DCA500000000000000000 /* RegisterView.h in Sources */,
+				645260E50000000000000000 /* RegisterView.m in Sources */,
+				67B08A670000000000000000 /* SplashView.h in Sources */,
+				AE39FA4F0000000000000000 /* SplashView.m in Sources */,
+				A6B21ADB0000000000000000 /* AppDelegate.h in Sources */,
+				E67F37BF0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		380245070000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		90F99D590000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "HomePost.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62CEDC6F0000000000000000 /* Build configuration list for PBXProject "HomePost.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380245070000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		34A41B850000000000000000 /* Build configuration list for PBXNativeTarget "HomePost.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F99D590000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6D27500000000000000000 /* Project object */;
+}

@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{22CD78BA-B16E-4027-8B04-A08863711582}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HomePost/ViewModels/SplashViewModel.cs">
+    <Files>
+      <File FileName="iOS/Views/LoginView.cs" Line="38" Column="64" />
+      <File FileName="HomePost/ViewModels/LoginViewModel.cs" Line="36" Column="9" />
+      <File FileName="iOS/Views/SplashView.cs" Line="29" Column="3" />
+      <File FileName="HomePost/ViewModels/SplashViewModel.cs" Line="12" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HomePost.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15F13B71-E162-4F22-AA3F-1100CC32B320">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.HomePost.iOS>
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Droid/HomePost.Droid.csproj</String>
+  </DisabledProjects>
+</Properties>
