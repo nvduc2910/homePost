@@ -11,4 +11,8 @@
 
 @synthesize btnRegister = _btnRegister;
 
+- (void)dealloc {
+    [_btnClose release];
+    [super dealloc];
+}
 @end

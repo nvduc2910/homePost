@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{22CD78BA-B16E-4027-8B04-A08863711582}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="HomePost/ViewModels/SplashViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Views/TableSources/AlbumDetailsTableSource.cs">
     <Files>
-      <File FileName="iOS/Views/LoginView.cs" Line="38" Column="64" />
-      <File FileName="HomePost/ViewModels/LoginViewModel.cs" Line="36" Column="9" />
-      <File FileName="iOS/Views/SplashView.cs" Line="29" Column="3" />
-      <File FileName="HomePost/ViewModels/SplashViewModel.cs" Line="12" Column="41" />
+      <File FileName="iOS/Views/Cells/AlbumDetailsTableViewCell.cs" Line="47" Column="10" />
+      <File FileName="iOS/Views/TableSources/ActivitiesTableSource.cs" Line="30" Column="60" />
+      <File FileName="HomePost/Models/AlbumDetails.cs" Line="4" Column="30" />
+      <File FileName="iOS/Views/MorePostView.cs" Line="37" Column="13" />
+      <File FileName="iOS/Views/HomeView.cs" Line="2" Column="1" />
+      <File FileName="HomePost/ViewModels/SplashViewModel.cs" Line="12" Column="44" />
+      <File FileName="iOS/Views/TableSources/AlbumDetailsTableSource.cs" Line="36" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

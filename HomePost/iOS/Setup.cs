@@ -1,12 +1,14 @@
 ﻿using System;
 using HomePost.Helpers;
 using HomePost.iOS.Helpers;
+using HomePost.Services;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views;
 using MvvmCross.iOS.Views.Presenters;
 using MvvmCross.Platform;
 using UIKit;
+using HomePost.iOS.Services;
 
 namespace HomePost.iOS
 {
@@ -21,6 +23,8 @@ namespace HomePost.iOS
 
 		protected override IMvxApplication CreateApp()
 		{
+            Mvx.RegisterSingleton<IImageService>(new ImageService());
+
 			return new App();
 		}
 

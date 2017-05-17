@@ -23,3 +23,4 @@
 /Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/actool/_PartialAppManifest.items
 /Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/actool/_BundleResourceWithLogicalName.items
 /Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-10.3/optimized/
+/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/iOS/bin/iPhoneSimulator/Debug/SDWebImage.dll

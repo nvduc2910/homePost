@@ -35,6 +35,14 @@
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
+    <Compile Include="ViewModels\HomeViewModel.cs" />
+    <Compile Include="ViewModels\CalenderEventViewModel.cs" />
+    <Compile Include="ViewModels\MorePostViewModel.cs" />
+    <Compile Include="ViewModels\MyPostViewModel.cs" />
+    <Compile Include="Models\ActivityModel.cs" />
+    <Compile Include="Services\IImageService.cs" />
+    <Compile Include="ViewModels\NewPostViewModel.cs" />
+    <Compile Include="Models\AlbumDetails.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Platform">
@@ -57,6 +65,7 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Models\" />
     <Folder Include="Helpers\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

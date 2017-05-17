@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterView">
             <connections>
+                <outlet property="btnClose" destination="8PT-PP-oZo" id="xxy-cB-QaD"/>
                 <outlet property="btnRegister" destination="TZo-pe-JFP" id="NsK-MC-C83"/>
                 <outlet property="view" destination="2" id="RRd-Eg-VrN"/>
             </connections>

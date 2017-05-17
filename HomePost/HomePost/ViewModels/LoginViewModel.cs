@@ -33,6 +33,27 @@ namespace HomePost.ViewModels
         }
         #endregion
 
+        #region LoginCommand
+        private MvxCommand mLoginCommand;
+
+        public MvxCommand LoginCommand
+        {
+            get
+            {
+                if (mLoginCommand == null)
+                {
+                    mLoginCommand = new MvxCommand(this.Login);
+                }
+                return mLoginCommand;
+            }
+        }
+
+        private void Login()
+        {
+            ShowViewModel<HomeViewModel>();
+        }
+        #endregion
+
 
         #endregion
     }

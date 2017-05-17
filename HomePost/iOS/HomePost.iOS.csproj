@@ -104,6 +104,9 @@
     <Reference Include="MvvmCross.Localization">
       <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Localization.dll</HintPath>
     </Reference>
+    <Reference Include="SDWebImage">
+      <HintPath>..\packages\Xamarin.SDWebImage.3.7.5\lib\Xamarin.iOS\SDWebImage.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HomePost\HomePost.csproj">
@@ -130,18 +133,71 @@
     <ImageAsset Include="Resources\Assets.xcassets\ico-close.imageset\ico-close.png" />
     <ImageAsset Include="Resources\Assets.xcassets\ico-close.imageset\ico-close%402x.png" />
     <ImageAsset Include="Resources\Assets.xcassets\ico-close.imageset\ico-close%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_event.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_event.imageset\ic_event.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_event.imageset\ic_event%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_event.imageset\ic_event%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_calendar.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_calendar.imageset\ic_calendar.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_calendar.imageset\ic_calendar%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_calendar.imageset\ic_calendar%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_home.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_home.imageset\ic_home.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_home.imageset\ic_home%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ic_home.imageset\ic_home%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\menu.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\menu.imageset\menu.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\menu.imageset\menu%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\menu.imageset\menu%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\back.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\back.imageset\back.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\back.imageset\back%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\back.imageset\back%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\add.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\add.imageset\add.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\add.imageset\add%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\add.imageset\add%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Oval 45.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\Oval 45.imageset\Oval 45.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Oval 45.imageset\Oval 45%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\Oval 45.imageset\Oval 45%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-close-photo.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-close-photo.imageset\ico-close-photo.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-close-photo.imageset\ico-close-photo%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-close-photo.imageset\ico-close-photo%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-gallery.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-gallery.imageset\ico-gallery.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-gallery.imageset\ico-gallery%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-gallery.imageset\ico-gallery%403x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-shot.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-shot.imageset\ico-shot.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-shot.imageset\ico-shot%402x.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\ico-shot.imageset\ico-shot%403x.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Views\" />
     <Folder Include="Helpers\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Views\Cells\" />
+    <Folder Include="Views\TableSources\" />
+    <Folder Include="Services\" />
+    <Folder Include="New Folder\" />
+    <Folder Include="Controls\" />
+    <Folder Include="Converters\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Views\SplashView.xib" />
     <InterfaceDefinition Include="Views\RegisterView.xib" />
     <InterfaceDefinition Include="Views\LoginView.xib" />
+    <InterfaceDefinition Include="Views\HomeView.xib" />
+    <InterfaceDefinition Include="Views\CalenderEventView.xib" />
+    <InterfaceDefinition Include="Views\MyPostView.xib" />
+    <InterfaceDefinition Include="Views\MorePostView.xib" />
+    <InterfaceDefinition Include="Views\Cells\ActivititesTableViewCell.xib" />
+    <InterfaceDefinition Include="Views\NewPostView.xib" />
+    <InterfaceDefinition Include="Views\Cells\AlbumDetailsTableViewCell.xib" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -168,6 +224,44 @@
     <Compile Include="Views\LoginView.designer.cs">
       <DependentUpon>LoginView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\HomeView.cs" />
+    <Compile Include="Views\HomeView.designer.cs">
+      <DependentUpon>HomeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CalenderEventView.cs" />
+    <Compile Include="Views\CalenderEventView.designer.cs">
+      <DependentUpon>CalenderEventView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MyPostView.cs" />
+    <Compile Include="Views\MyPostView.designer.cs">
+      <DependentUpon>MyPostView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MorePostView.cs" />
+    <Compile Include="Views\MorePostView.designer.cs">
+      <DependentUpon>MorePostView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Cells\ActivititesTableViewCell.cs" />
+    <Compile Include="Views\Cells\ActivititesTableViewCell.designer.cs">
+      <DependentUpon>ActivititesTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableSources\ActivitiesTableSource.cs" />
+    <Compile Include="Views\NewPostView.cs" />
+    <Compile Include="Views\NewPostView.designer.cs">
+      <DependentUpon>NewPostView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\ImageService.cs" />
+    <Compile Include="Helpers\TweetStation.cs" />
+    <Compile Include="Extensions\ImageExtension.cs" />
+    <Compile Include="Controls\BindableUrlUIImageView.cs" />
+    <Compile Include="Converters\BytesToUIImageConverter.cs" />
+    <Compile Include="Views\Cells\AlbumDetailsTableViewCell.cs" />
+    <Compile Include="Views\Cells\AlbumDetailsTableViewCell.designer.cs">
+      <DependentUpon>AlbumDetailsTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableSources\AlbumDetailsTableSource.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\.DS_Store" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

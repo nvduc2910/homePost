@@ -6,11 +6,14 @@
 
 
 #import <Foundation/Foundation.h>
+#import <HomePost/HomePost.h>
 #import <UIKit/UIKit.h>
 
 
 @interface RegisterView : UIViewController {
+	UIButton *_btnRegister;
 }
-@property (retain, nonatomic) IBOutlet UIButton *btnRegister;
+
+@property (nonatomic, retain) IBOutlet UIButton *btnRegister;
 
 @end

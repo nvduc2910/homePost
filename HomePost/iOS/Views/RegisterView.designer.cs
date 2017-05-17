@@ -13,6 +13,9 @@ namespace HomePost.iOS.Views
 	partial class RegisterView
 	{
 		[Outlet]
+		UIKit.UIButton btnClose { get; set; }
+
+		[Outlet]
 		UIKit.UIButton btnRegister { get; set; }
 		
 		void ReleaseDesignerOutlets ()
@@ -20,6 +23,11 @@ namespace HomePost.iOS.Views
 			if (btnRegister != null) {
 				btnRegister.Dispose ();
 				btnRegister = null;
+			}
+
+			if (btnClose != null) {
+				btnClose.Dispose ();
+				btnClose = null;
 			}
 		}
 	}

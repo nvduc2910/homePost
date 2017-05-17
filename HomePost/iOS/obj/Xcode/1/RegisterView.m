@@ -9,8 +9,6 @@
 
 @implementation RegisterView
 
-- (void)dealloc {
-    [_btnRegister release];
-    [super dealloc];
-}
+@synthesize btnRegister = _btnRegister;
+
 @end

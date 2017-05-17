@@ -30,13 +30,14 @@ namespace HomePost.iOS.Views
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            InitView();
 			// Perform any additional setup after loading the view, typically from a nib.
 
 			var set = this.CreateBindingSet<LoginView, LoginViewModel>();
 
 			
             set.Bind(btnRegister).To(vm => vm.RegisterCommand);
-
+            set.Bind(btnLogin).To(vm => vm.LoginCommand);
             set.Apply();
 		}
 
@@ -45,6 +46,13 @@ namespace HomePost.iOS.Views
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
         }
+
+        public void InitView()
+        {
+            btnLogin.Layer.CornerRadius = 3;
+            btnLogin.Layer.MasksToBounds = true;
+        }
+
     }
 }
 

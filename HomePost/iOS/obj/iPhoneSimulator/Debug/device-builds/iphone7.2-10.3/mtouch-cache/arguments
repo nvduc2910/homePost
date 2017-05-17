@@ -39,6 +39,8 @@
 	-r \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/MvvmCross.Platform.4.4.0/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll" \
 	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Xamarin.SDWebImage.3.7.5/lib/Xamarin.iOS/SDWebImage.dll" \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -328,6 +330,8 @@
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/MvvmCross.Platform.4.4.0/lib/Xamarin.iOS10/MvvmCross.Platform.dll" \
 	-r \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/MvvmCross.Platform.4.4.0/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Xamarin.SDWebImage.3.7.5/lib/Xamarin.iOS/SDWebImage.dll" \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/iOS/bin/iPhoneSimulator/Debug/HomePost.iOS.exe" \

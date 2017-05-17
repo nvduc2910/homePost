@@ -129,13 +129,13 @@
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New account," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o26-oO-I7A">
-                    <rect key="frame" x="16" y="32" width="147.5" height="29"/>
+                    <rect key="frame" x="16" y="70" width="147.5" height="29"/>
                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
                     <color key="textColor" red="0.37254901960784315" green="0.37254901960784315" blue="0.37254901960784315" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Linkedin sign-up are verified with blabla next their brinding." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBL-sq-apN">
-                    <rect key="frame" x="16" y="76" width="339" height="41"/>
+                    <rect key="frame" x="16" y="114" width="339" height="41"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.37254901960784315" green="0.37254901960784315" blue="0.37254901960784315" alpha="0.5" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
@@ -181,7 +181,7 @@
                 <constraint firstItem="8PT-PP-oZo" firstAttribute="top" secondItem="2" secondAttribute="top" constant="20" id="XSU-no-M6h"/>
                 <constraint firstItem="0m9-47-8ij" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="16" id="Xmp-tx-fhw"/>
                 <constraint firstItem="TZo-pe-JFP" firstAttribute="top" secondItem="qLZ-EI-ybE" secondAttribute="bottom" constant="25" id="dHF-Hq-edy"/>
-                <constraint firstItem="o26-oO-I7A" firstAttribute="top" secondItem="2" secondAttribute="top" constant="32" id="dII-i2-i31"/>
+                <constraint firstItem="o26-oO-I7A" firstAttribute="top" secondItem="2" secondAttribute="top" constant="70" id="dII-i2-i31"/>
                 <constraint firstAttribute="bottom" secondItem="smL-p1-TVx" secondAttribute="bottom" constant="20" id="dyH-XK-OHG"/>
                 <constraint firstAttribute="trailing" secondItem="eBL-sq-apN" secondAttribute="trailing" constant="20" id="fqB-4Q-0Ob"/>
                 <constraint firstAttribute="trailing" secondItem="TZo-pe-JFP" secondAttribute="trailing" constant="16" id="ik7-Fg-cOT"/>

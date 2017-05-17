@@ -9,7 +9,7 @@ namespace HomePost.ViewModels
 
 		public void Init()
 		{
-            ShowViewModel<LoginViewModel>();
+            ShowViewModel<MorePostViewModel>();
 		}
     }
 }
