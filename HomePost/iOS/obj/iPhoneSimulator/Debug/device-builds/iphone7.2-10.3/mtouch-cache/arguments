@@ -23,6 +23,12 @@
 	-r \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/HomePost.dll" \
 	-r \
+	"/Users/ducnguyen/Documents/Company Project/SC App/Swapcerts/Swapcerts.iOS/Libs/MBProgressBinding.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll" \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/MvvmCross.Binding.4.4.0/lib/Xamarin.iOS10/MvvmCross.Binding.dll" \
@@ -44,6 +50,10 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Extensions.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Primitives.dll" \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
@@ -317,6 +327,12 @@
 	-r \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/HomePost.dll" \
 	-r \
+	"/Users/ducnguyen/Documents/Company Project/SC App/Swapcerts/Swapcerts.iOS/Libs/MBProgressBinding.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Microsoft.Bcl.Async.1.0.168/lib/portable-net45+win8+wpa81/Microsoft.Threading.Tasks.Extensions.dll" \
+	-r \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/MvvmCross.Binding.4.4.0/lib/Xamarin.iOS10/MvvmCross.Binding.dll" \
 	-r \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/MvvmCross.Binding.4.4.0/lib/Xamarin.iOS10/MvvmCross.Binding.iOS.dll" \
@@ -332,6 +348,20 @@
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/MvvmCross.Platform.4.4.0/lib/Xamarin.iOS10/MvvmCross.Platform.iOS.dll" \
 	-r \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Xamarin.SDWebImage.3.7.5/lib/Xamarin.iOS/SDWebImage.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Extensions.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/packages/Microsoft.Net.Http.2.2.29/lib/Xamarin.iOS10/System.Net.Http.Primitives.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/Flurl.Http.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/Newtonsoft.Json.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/Flurl.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/PCLStorage.Abstractions.dll" \
+	-r \
+	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/bin/Debug/PCLStorage.dll" \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	"/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/iOS/bin/iPhoneSimulator/Debug/HomePost.iOS.exe" \

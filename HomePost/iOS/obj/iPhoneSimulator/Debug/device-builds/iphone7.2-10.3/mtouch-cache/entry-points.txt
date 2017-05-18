@@ -1,3 +1,4 @@
+MBProgressMaxOffset
 xamarin_start_wwan
 xamarin_localized_string_format
 xamarin_localized_string_format_1
@@ -323,15 +324,15 @@ CloseZStream
 Flush
 ReadZStream
 WriteZStream
-SDWebImageDownloadFinishNotification
-SDWebImageDownloadReceiveResponseNotification
-SDWebImageDownloadStartNotification
-SDWebImageDownloadStopNotification
 xamarin_timezone_get_names
 xamarin_timezone_get_data
 xamarin_GetFolderPath
 xamarin_log
 xamarin_get_locale_country_code
+SDWebImageDownloadFinishNotification
+SDWebImageDownloadReceiveResponseNotification
+SDWebImageDownloadStartNotification
+SDWebImageDownloadStopNotification
 mono_pmip
 xamarin_dyn_objc_msgSend
 xamarin_dyn_objc_msgSendSuper

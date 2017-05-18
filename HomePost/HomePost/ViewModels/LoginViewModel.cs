@@ -9,6 +9,11 @@ namespace HomePost.ViewModels
         {
         }
 
+        #region Properties
+
+
+
+        #endregion
 
         #region Commands
 

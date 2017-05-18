@@ -1,23 +1,49 @@
 ﻿<Properties StartupConfiguration="{22CD78BA-B16E-4027-8B04-A08863711582}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Views/TableSources/AlbumDetailsTableSource.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HomePost/ViewModels/LoginViewModel.cs">
     <Files>
-      <File FileName="iOS/Views/Cells/AlbumDetailsTableViewCell.cs" Line="47" Column="10" />
-      <File FileName="iOS/Views/TableSources/ActivitiesTableSource.cs" Line="30" Column="60" />
-      <File FileName="HomePost/Models/AlbumDetails.cs" Line="4" Column="30" />
-      <File FileName="iOS/Views/MorePostView.cs" Line="37" Column="13" />
-      <File FileName="iOS/Views/HomeView.cs" Line="2" Column="1" />
-      <File FileName="HomePost/ViewModels/SplashViewModel.cs" Line="12" Column="44" />
-      <File FileName="iOS/Views/TableSources/AlbumDetailsTableSource.cs" Line="36" Column="13" />
+      <File FileName="HomePost/Services/IApiService.cs" Line="318" Column="16" />
+      <File FileName="HomePost/ApiConstants.cs" Line="15" Column="55" />
+      <File FileName="HomePost/Models/Response/UserResponse.cs" Line="19" Column="9" />
+      <File FileName="HomePost/Models/UserData.cs" Line="10" Column="52" />
+      <File FileName="HomePost/ViewModels/LoginViewModel.cs" Line="12" Column="9" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HomePost" expanded="True">
+            <Node name="HomePost" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Response" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="LoginViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="HomePost.iOS" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="TableSources" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/Services/IApiService.cs" relfile="HomePost/Services/IApiService.cs" line="266" column="17" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HomePost.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15F13B71-E162-4F22-AA3F-1100CC32B320">
+  <MonoDevelop.Ide.ItemProperties.Lofty.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15F13B71-E162-4F22-AA3F-1100CC32B320">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.HomePost.iOS>
+  </MonoDevelop.Ide.ItemProperties.Lofty.iOS>
   <MultiItemStartupConfigurations />
   <DisabledProjects>
     <String>Droid/HomePost.Droid.csproj</String>

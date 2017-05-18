@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{22CD78BA-B16E-4027-8B04-A08863711582}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Views/BaseView.cs">
+    <Files>
+      <File FileName="HomePost/Services/IApiService.cs" Line="71" Column="14" />
+      <File FileName="HomePost/ApiConstants.cs" Line="15" Column="55" />
+      <File FileName="HomePost/Models/Response/UserResponse.cs" Line="19" Column="9" />
+      <File FileName="HomePost/Models/UserData.cs" Line="10" Column="52" />
+      <File FileName="HomePost/ViewModels/LoginViewModel.cs" Line="60" Column="19" />
+      <File FileName="iOS/Setup.cs" Line="19" Column="13" />
+      <File FileName="HomePost/Services/IImageService.cs" Line="4" Column="11" />
+      <File FileName="iOS/Views/BaseView.cs" Line="6" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lofty" expanded="True">
+            <Node name="Lofty" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="Lofty.iOS" expanded="True" selected="True">
+              <Node name="References" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="TableSources" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/ducnguyen/Documents/Freelancer Pro/HomePost/HomePost/HomePost/Services/IApiService.cs" relfile="HomePost/Services/IApiService.cs" line="264" column="17" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HomePost.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15F13B71-E162-4F22-AA3F-1100CC32B320">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.HomePost.iOS>
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>Droid/Lofty.Droid.csproj</String>
+  </DisabledProjects>
+</Properties>
